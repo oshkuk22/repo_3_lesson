@@ -8,9 +8,9 @@ flag = True
 
 def division_func(dividend, divider):
     try:
-        return print(f'Rezult of the division {dividend}/{divider} = {(dividend / divider):.3f}')
+        print(f'Rezult of the division {dividend}/{divider} = {(dividend / divider):.3f}')
     except ZeroDivisionError:
-        return print("Error. Division by zero")
+        print("Error. Division by zero")
 
 
 while flag:
