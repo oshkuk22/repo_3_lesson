@@ -8,8 +8,7 @@
 
 
 def step_multiply_1(base, step):
-    result_1 = base ** step
-    return result_1
+    return base ** step
 
 
 def step_multiply_2(base, step):
@@ -27,8 +26,8 @@ def step_multiply_2(base, step):
 
 
 base = 6
-step = 5
+step = -5
 
-print(f'{base} to the power of {step} using the operator ** =  {step_multiply_1(base=base, step=step)}\n')
+print(f'{base} to the power of {step} using the operator ** =  {step_multiply_1(base=base, step=step)}')
 print(f'{base} to the power of {step} using the cycle =  {step_multiply_2(base=base, step=step)}')
 
