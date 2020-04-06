@@ -19,4 +19,4 @@ for i in string_.split():
 print(f'\nUse map: {list(map(int_func, string_.split()))}'
       f'\nUse lambda: {list(map(lambda words_: words_.title(), string_.split()))}')
 
-# branch dev
+# branch dev 2
